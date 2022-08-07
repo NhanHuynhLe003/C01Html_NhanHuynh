@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    
+</head>
+<body>
+
+    
+
+    <div id="header">
+        <h1>TRANG WEB DAU TIEN</h1>
+
+        <div class="planets">
+            <div class="sun-planet"><a href="./pages/sun.html"></a></div>
+            <div class="venus-planet"><a href="./pages/venus.html"></a></div>
+            <div class="mecur-planet"><a href="./pages/mercur.html"></a></div>
+        </div>
+        <img src="img/planets.gif" alt="planets-images" usemap="#planets-map" class="planets-img">
+        <!-- co dau cham ngoai truoc thi select tu thu muc chua -->
+        <map name="#planets-map">
+            <area shape="rect" coords="0,0,81,126" href="./pages/sun.html" alt="sun-picture">
+            <area shape="circle" coords="93,60,6" href="./pages/mercur.html" alt="mecur-picture">
+            <area shape="circle" coords="126,60,10" href="./pages/venus.html" alt="">
+        </map>
+
+    </div>
+
+    <nav>
+        <a href="#footer" class="item">Footer</a>
+        <a href="./pages/sun.html" class="item">Sun</a>
+        <a href="tel:(+84) 08 16 02 04 16" class="item">Goi Ngay</a>
+        <a href="#" onclick="alert('Kmin chào bạn!')" class="item greeting">Loi Chao</a>
+        <a href="mailto: academy@kmin.edu.vn" class="item">Lien He</a>
+        <a href="https://www.google.com/" class="search">Tim Kiem</a>
+    </nav>
+
+    <div id="content-section">
+        <article class="aLeft">
+            <div class="heading01">
+                <div class="heading-title"><h2>Tieu De 1</h2></div>
+                <div class="description">Mô tả ngắn, Dec 7, 2025</div>
+                <p class="intro-heading01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <img src="./img/article01.jpg" alt="" class="EarthImage" width="100%">
+                <p class="content-heading01">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+
+            <div class="heading02">
+                <div class="heading-title"><h2>Tieu De 2</h2></div>
+                <div class="description">Mô tả ngắn, Dec 7, 2025</div>
+                <div class="table-name-heading02">Danh sách học viên tham gia Bug Sharing</div>
+                <table>
+                    <tr>
+                        <th>Họ và Tên</th>
+                        <th>Lớp</th>
+                        <th>SĐT</th>
+                    </tr>
+                    <tr>
+                        <td>Vũ Đình Bảo</td>
+                        <td>Tư Duy Và Kỹ Năng Lập Trình</td>
+                        <td>0384004298</td>
+                    </tr>
+                    <tr>
+                        <td>Lê Hồng Phúc</td>
+                        <td>Lập Trình Front-End</td>
+                        <td>0123456789</td>
+                    </tr>
+                    <tr>
+                        <td>Đặng Minh Tâm</td>
+                        <td>Lập Trình Back-end với NodeJS</td>
+                        <td>null</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="heading03">
+                <div class="heading-title"><h2>Tieu De 3</h2></div>
+                <div class="contain-drink01">
+                    <div class="name-drink1">Các món có thể gọi</div>
+                <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                    <br>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ul>
+                <hr>
+                </div>
+
+                <div class="contain-drink02">
+                    <div class="name-drink2">Các món có thể gọi</div>
+                <ol type="A">
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ol>
+                <ol>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Coca Cola</li>
+                </ol>
+                <hr>
+                </div>
+
+                <div class="contain-drink03">
+                    <div class="name-drink3">Coffee và milk có nghĩa là gì?</div>
+                    <dl>
+                        <dt>Coffee</dt>
+                        <dd>- Thức uống làm cho bạn phê</dd>
+                        <dt>Milk</dt>
+                        <dd>- Thức uống tốt cho sức khỏe</dd>
+                    </dl>
+                <hr>
+                </div>
+
+                <div class="contain-drink04">
+                    <div class="name-drink4">Menu chi tiết hơn</div>
+                <ul>
+                    <dt><li>Coffee</li></dt>
+                    <dt><li>Tea</li></dt>
+                    <dd>
+                        <ul style="list-style-type: style type circle;">
+                            <li>Black tea</li>
+                            <li>Green tea</li>
+                        </ul>
+                    </dd>
+                    <dt><li>Milk</li></dt>
+                </ul>
+                
+                <div class="form-register">
+                    <div class="title-register">ĐĂNG KÝ KHÓA HỌC</div>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBlxmQH7jvdnBjndjhj6lv_cN_trdDW5Zlor8vVEe1OcNAzg/viewform?embedded=true" width="640" height="2009" frameborder="0" marginheight="0" marginwidth="0">Đang tải…</iframe>
+                </div>
+
+
+                </div>
+            </div>
+        </article>
+        <aside>
+            <div class="aRight">
+            <div class="info-teacher">
+                <div class="teacher-avarta">
+                    <img src="./img/avarta.png" alt="" width="100%">
+                </div>
+                <div class="teacher-name">Vu Dinh Bao</div>
+                <div class="intro-teacher">Lorem ipsum, or lipsum as it is sometimes known</div>
+            </div>
+
+            <div class="sub-content">
+                <div class="title-sub-content">Bài Mới</div>
+                <audio src="./media/audio.mp3" controls></audio>
+                <iframe src="./media/video.mp4" frameborder="0"></iframe>
+
+                <div class="title-sub-content">Tin Vắng</div>
+                <p class="tin-vang-content">Lorem ipsum, or lipsum as it is sometimes known</p>
+
+                <div class="title-sub-content">Chúc mừng năm mới</div>
+                <a href="https://kmin.edu.vn/"><img src="./img/noel.gif" alt="noel" width="100%"></a>
+                
+
+                <div class="title-sub-content">Theo dõi Fanpage</div>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkmin.academy&tabs=timeline&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+                
+            </div>
+        </div>
+        </aside>
+        
+    </div>
+
+    <div id="footer">KMIN ACADEMY</div>
+    
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+    color: #173451;
+    width: 80%;
+    margin: auto;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: #992154;
+    
+  }
+  
+  h2 {
+    color: #fcbf16;
+    font-size: 30px;
+  }
+  
+  .sun-planet{
+    float:left;
+    margin-left: 10px;
+  }
+  nav {
+    padding: 2rem;
+    background-color: #fcbf16;
+    /*cach 2: dung 
+    display: flex;
+    justify-content: space-between;
+    */
+
+  }
+  nav .item{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 5px;
+    color: #000;
+    font-weight: bold;
+  }
+  nav .search{
+    float: right;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    padding: 0 0;
+    
+  }
+  nav .item:hover{
+    opacity: 0.4;
+  }
+  nav .search:hover{
+    opacity: 0.4;
+    
+  }
+  
+  article {
+    /* margin-top: 10px; */
+    float:left;
+    width: 70%;
+  
+
+  }
+  .form-register .title-register{
+    font-size:22px;
+    font-weight:bold;
+  }
+  aside {
+    float: left;
+    width: 30%;
+    /* min-width: 400px; */
+  }
+ .aRight{
+  margin-left: 15%;
+ }
+  table, th, td{
+    border: 1px solid #000;
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .info-teacher .teacher-name{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .description{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+
+  .sub-content .title-sub-content{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  #footer{
+    color: #fcbf16;
+    font-size: 30px;
+    text-align: center;
+    background-color: #173451;
+    clear: both; /*để ko bị ảnh hưởng bởi float*/
+    
+  }

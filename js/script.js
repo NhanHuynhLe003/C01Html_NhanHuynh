@@ -1,0 +1,5 @@
+
+
+
+
+    alert('Kmin chào bạn!');
